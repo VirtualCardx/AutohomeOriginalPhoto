@@ -23,17 +23,6 @@
         link.href = getBigImageURL(origin_img.getAttribute("data-src"))
         pics[index].append(link)
     }
-/*
-        let pics2 = document.getElementsByClassName("tz-figure");
-    for(let index = 0;index<pics2.length;index++)
-    {
-        let origin_img = pics2[index].firstChild
-        //console.log(origin_img.getAttribute("data-src"))
-        let link = document.createElement("a")
-        link.innerHTML = "查看高清大图"
-        link.href = getBigImageURL(origin_img.getAttribute("data-src"))
-        pics2[index].append(link)
-    }*/
 
     // Your code here...
 })();
